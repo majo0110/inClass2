@@ -1,8 +1,16 @@
 def main():
-    userChoice = input("Enter a number for calculator function: ")
+    #userChoice = input("Enter a number for calculator function: ")
 
-    userNum1 = input("Enter your first number: ")
-    userNum2 = input("Enter your first number: ")
+    #userNum1 = input("Enter your first number: ")
+    #userNum2 = input("Enter your first number: ")
+
+    userNum1 = 10
+    userNum2 = 2
+
+    print( addition(userNum1,userNum2) )
+    print( subtraction(userNum1,userNum2) )
+    print( multiplication(userNum1,userNum2) )
+    print( division(userNum1,userNum2) )
 
 
 def addition(a,b):
