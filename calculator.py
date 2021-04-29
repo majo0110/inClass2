@@ -6,7 +6,7 @@ def main():
 
 
 def addition(a,b):
-    pass
+    return (a+b)
 
 def subtraction(a,b):
     pass
