@@ -18,10 +18,10 @@ class testCase_Sub(unittest.TestCase):
         self.assertEqual(result, -5)
 
     def test_sub_neg(self):
-        self.assertEqual(calculator.subtraction(15,-30), -15)
+        self.assertEqual(calculator.subtraction(15,-30), 45)
 
-    def test_sub_string(self):
-        self.assertRaises(TypeError, calculator.subtraction('hello', 'world'))
+    def test_sub_zero(self):
+        self.assertEqual(calculator.subtraction(1000,0), 1000)
 
 if __name__ == '__main__':
     unittest.main()
